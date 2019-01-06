@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CV App</string>
+    <string name="profile">Profile</string>
+    <string name="core_skills">Core Skills</string>
+    <string name="career_summary">Career Summary</string>
+    <string name="education_qualifications"><![CDATA[Education & Qualifications]]></string>
+    <string name="references">References</string>
+</resources>
