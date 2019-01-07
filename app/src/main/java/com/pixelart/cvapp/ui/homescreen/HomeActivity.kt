@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.test.espresso.idling.CountingIdlingResource
 import com.pixelart.cvapp.adapter.HomeRVAdapter
 import com.pixelart.cvapp.base.BaseActivity
 import com.pixelart.cvapp.databinding.ActivityHomeBinding
@@ -21,6 +22,8 @@ class HomeActivity : BaseActivity<HomeContract.Presenter>(), HomeContract.View, 
 
     private lateinit var adapter: HomeRVAdapter
     private lateinit var sampleCvs: ArrayList<SampleCv>
+
+    private val idlingResource = CountingIdlingResource("Network_Call")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -41,15 +44,19 @@ class HomeActivity : BaseActivity<HomeContract.Presenter>(), HomeContract.View, 
 
     override fun getView(): HomeContract.Presenter = presenter
 
+    override fun onResume() {
+        super.onResume()
+        idlingResource.increment()
+        presenter.onResume()
+    }
+
     override fun showCVs(cvs: List<SampleCv>) {
         adapter.submitList(cvs)
+        idlingResource.decrement()
         sampleCvs = cvs as ArrayList<SampleCv>
     }
 
-    override fun onResume() {
-        super.onResume()
-        presenter.onResume()
-    }
+    fun getCountingIdlingResources():CountingIdlingResource = idlingResource
 
     override fun onItemClicked(position: Int) {
         val cv = sampleCvs[position]

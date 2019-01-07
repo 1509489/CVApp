@@ -1,0 +1,355 @@
+{
+  "sampleCvs" :
+  [
+    {
+      "name" : "Laura Jones",
+      "email" : "laura@jones.com",
+      "phone_number" : "07070548652",
+
+      "address" : {
+        "street" : "17 Church Lane",
+        "town" : "Leeds",
+        "post_code" : "LS89 8NF"
+      },
+      "profile" : "Proficient executive assistant with a proven track record of supporting senior business figures in the managment of leading corporate and government organisations.\n\nWith extensive experience of supporting different directiors and managers across the property, construction and hotel industtries; I am highly organised, efficient, personable and able to deliver consistently high results in challenging and pressurised work environments. Well versed in the creation of intenal communications and external proffessional documents and am able to liaise with all levels of staff and clients.",
+      "core_skills" : [
+        "Executive & Personal Assistant",
+        "Telephone Call Handling",
+        "Diary Management",
+        "Client Liaison",
+        "Audio Typing Speed 75wpm",
+        "Copy Typing Speed 60wpm"
+      ],
+      "career_summary" : [
+        {
+          "from" : "Feb 2010",
+          "to" : "Present",
+          "outline" : "Supporting two senior business figures for leading global property management firm; liaising with clients, intenal staff and external property professionals in the management of over 500 investors.",
+          "key_responsibilities" : [
+            "Diary management for FD and GIA; avoiding clashes and handling emergency situations",
+            "Booking travel arrangements and arranging work visas and associated documentation",
+            "Proactive email management to ensure prompt response of priority messages",
+            "Telephone management ensuring that non-urgent calls are diverted during busy periods",
+            "Liaising with clients globally, recording information and providng excellent customer service",
+            "Creating internal email communications and arranging internal events and meetings",
+            "Liaising with external professionals such as solicitors, surveyors and contractors"
+          ]
+        },
+        {
+          "from" : "Oct 2007",
+          "to" : "Oct 2010",
+          "outline" : "Broad ranging role providing executive assistance, office management and HR services to leading UK construction company, reporting to the managing director and managing a team of ten staff",
+          "key_responsibilities" :[
+            "Providing gatekeeper services including screening of telephone calls and emails for MD",
+            "Diary management and organisation of meetings internally and externally for senior figures",
+            "Arranging services with contractors and financiers on behalf of President & CEO",
+            "Monitoring staff attendance and punctuality, then flagging any irregularities with leadership",
+            "Office management including ordering of supplies, managing utilities and health & safety"
+          ]
+        }
+      ],
+      "education_qualifications":[
+        "BTEC Business Studies/Secretarial Diploma",
+        "Travel & Tourism COTAC Level 1 & 2, ABC Fares & Ticketing - College",
+        "Advanced Legal Word Processing (Merit), Advance Administration in the Legal Environment(Distinction), Advanced Communication Skills in the Legal Environment(Distinction) - Institute of Exec",
+        "6 GCSE's including Englisg & Maths"
+      ],
+      "references" : [
+        "Available on request"
+      ]
+    },
+    {
+      "name" : "Gary Smith",
+      "email" : "gary@smith.com",
+      "phone_number" : "07821196804",
+
+      "address" : {
+        "street" : "25  Graham Road",
+        "town" : "CHERITON",
+        "post_code" : "SA71 4LB"
+      },
+      "profile" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nSuspendisse gravida turpis id libero tristique volutpat. Donec finibus mi vel placerat pretium. Sed id velit suscipit, lobortis dolor quis, bibendum metus. Nullam maximus felis eget odio tempus iaculis. Morbi a mi nunc. Donec libero metus, maximus eu aliquam et, congue non augue. Fusce ornare convallis consequat. Praesent eros orci, molestie eu lacus nec, convallis blandit tortor. Duis venenatis mollis posuere.",
+      "core_skills" : [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Integer tincidunt quam sodales arcu vulputate volutpat",
+        "Sed molestie ipsum ut varius vulputate",
+        "Quisque luctus tortor in pharetra eleifend",
+        "In rhoncus ante sit amet accumsan tempus",
+        "Nunc ultrices leo eget luctus aliquam"
+      ],
+      "career_summary" : [
+        {
+          "from" : "Feb 2012",
+          "to" : "Present",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        },
+        {
+          "from" : "Oct 2009",
+          "to" : "Feb 2012",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        },
+        {
+          "from" : "Oct 2008",
+          "to" : "Oct 2009",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        }
+      ],
+      "education_qualifications":[
+        "BTEC Business Studies/Secretarial Diploma",
+        "Travel & Tourism COTAC Level 1 & 2, ABC Fares & Ticketing - College",
+        "Advanced Legal Word Processing (Merit), Advance Administration in the Legal Environment(Distinction), Advanced Communication Skills in the Legal Environment(Distinction) - Institute of Exec",
+        "6 GCSE's including Englisg & Maths"
+      ],
+      "references" : [
+        "Available on request"
+      ]
+    },
+    {
+      "name" : "Jane Pearce",
+      "email" : "jane@pearce.com",
+      "phone_number" : "07946122792",
+
+      "address" : {
+        "street" : "55 Roman Rd",
+        "town" : "Leiston",
+        "post_code" : "IP16 5UY"
+      },
+      "profile" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nSuspendisse gravida turpis id libero tristique volutpat. Donec finibus mi vel placerat pretium. Sed id velit suscipit, lobortis dolor quis, bibendum metus. Nullam maximus felis eget odio tempus iaculis. Morbi a mi nunc. Donec libero metus, maximus eu aliquam et, congue non augue. Fusce ornare convallis consequat. Praesent eros orci, molestie eu lacus nec, convallis blandit tortor. Duis venenatis mollis posuere.",
+      "core_skills" : [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Integer tincidunt quam sodales arcu vulputate volutpat",
+        "Sed molestie ipsum ut varius vulputate",
+        "Quisque luctus tortor in pharetra eleifend",
+        "In rhoncus ante sit amet accumsan tempus",
+        "Nunc ultrices leo eget luctus aliquam"
+      ],
+      "career_summary" : [
+        {
+          "from" : "Feb 2012",
+          "to" : "Present",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        },
+        {
+          "from" : "Oct 2009",
+          "to" : "Feb 2012",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        },
+        {
+          "from" : "Oct 2008",
+          "to" : "Oct 2009",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        }
+      ],
+      "education_qualifications":[
+        "BTEC Business Studies/Secretarial Diploma",
+        "Travel & Tourism COTAC Level 1 & 2, ABC Fares & Ticketing - College",
+        "Advanced Legal Word Processing (Merit), Advance Administration in the Legal Environment(Distinction), Advanced Communication Skills in the Legal Environment(Distinction) - Institute of Exec",
+        "6 GCSE's including Englisg & Maths"
+      ],
+      "references" : [
+        "Available on request"
+      ]
+    },
+    {
+      "name" : "Hayden E Page",
+      "email" : "hayden.e@page.com",
+      "phone_number" : "07980058098",
+
+      "address" : {
+        "street" : "62 Mounthoolie Lane",
+        "town" : "Sutton",
+        "post_code" : "RH20 7YA"
+      },
+      "profile" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nSuspendisse gravida turpis id libero tristique volutpat. Donec finibus mi vel placerat pretium. Sed id velit suscipit, lobortis dolor quis, bibendum metus. Nullam maximus felis eget odio tempus iaculis. Morbi a mi nunc. Donec libero metus, maximus eu aliquam et, congue non augue. Fusce ornare convallis consequat. Praesent eros orci, molestie eu lacus nec, convallis blandit tortor. Duis venenatis mollis posuere.",
+      "core_skills" : [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Integer tincidunt quam sodales arcu vulputate volutpat",
+        "Sed molestie ipsum ut varius vulputate",
+        "Quisque luctus tortor in pharetra eleifend",
+        "In rhoncus ante sit amet accumsan tempus",
+        "Nunc ultrices leo eget luctus aliquam"
+      ],
+      "career_summary" : [
+        {
+          "from" : "Feb 2012",
+          "to" : "Present",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        },
+        {
+          "from" : "Oct 2009",
+          "to" : "Feb 2012",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        },
+        {
+          "from" : "Oct 2008",
+          "to" : "Oct 2009",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        }
+      ],
+      "education_qualifications":[
+        "BTEC Business Studies/Secretarial Diploma",
+        "Travel & Tourism COTAC Level 1 & 2, ABC Fares & Ticketing - College",
+        "Advanced Legal Word Processing (Merit), Advance Administration in the Legal Environment(Distinction), Advanced Communication Skills in the Legal Environment(Distinction) - Institute of Exec",
+        "6 GCSE's including Englisg & Maths"
+      ],
+      "references" : [
+        "Available on request"
+      ]
+    },
+    {
+      "name" : "Harry L Wall",
+      "email" : "harry.l@wall.com",
+      "phone_number" : "07054790534",
+
+      "address" : {
+        "street" : "69 Monks Way",
+        "town" : "Torwood",
+        "post_code" : "FK5 8RP"
+      },
+      "profile" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \n\nSuspendisse gravida turpis id libero tristique volutpat. Donec finibus mi vel placerat pretium. Sed id velit suscipit, lobortis dolor quis, bibendum metus. Nullam maximus felis eget odio tempus iaculis. Morbi a mi nunc. Donec libero metus, maximus eu aliquam et, congue non augue. Fusce ornare convallis consequat. Praesent eros orci, molestie eu lacus nec, convallis blandit tortor. Duis venenatis mollis posuere.",
+      "core_skills" : [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Integer tincidunt quam sodales arcu vulputate volutpat",
+        "Sed molestie ipsum ut varius vulputate",
+        "Quisque luctus tortor in pharetra eleifend",
+        "In rhoncus ante sit amet accumsan tempus",
+        "Nunc ultrices leo eget luctus aliquam"
+      ],
+      "career_summary" : [
+        {
+          "from" : "Feb 2012",
+          "to" : "Present",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        },
+        {
+          "from" : "Oct 2009",
+          "to" : "Feb 2012",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        },
+        {
+          "from" : "Oct 2008",
+          "to" : "Oct 2009",
+          "outline" : "Morbi commodo lacus ac est elementum sollicitudin. Aliquam quis lobortis massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam et mi at purus tincidunt rhoncus sed eu nibh.",
+          "key_responsibilities" : [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "Nam dignissim est vel erat vulputate, at feugiat nulla blandit.",
+            "Maecenas facilisis tellus nec faucibus luctus.",
+            "Nulla non ante nec felis iaculis placerat id eu ex.",
+            "Cras dictum lacus semper nisl euismod auctor.",
+            "Etiam in orci eget odio condimentum hendrerit.",
+            "Proin luctus orci vel ipsum scelerisque aliquet."
+          ]
+        }
+      ],
+      "education_qualifications":[
+        "BTEC Business Studies/Secretarial Diploma",
+        "Travel & Tourism COTAC Level 1 & 2, ABC Fares & Ticketing - College",
+        "Advanced Legal Word Processing (Merit), Advance Administration in the Legal Environment(Distinction), Advanced Communication Skills in the Legal Environment(Distinction) - Institute of Exec",
+        "6 GCSE's including Englisg & Maths"
+      ],
+      "references" : [
+        "Available on request"
+      ]
+    }
+  ]
+
+}
