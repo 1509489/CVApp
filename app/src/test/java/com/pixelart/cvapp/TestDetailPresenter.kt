@@ -1,5 +1,7 @@
 package com.pixelart.cvapp
 
+import com.nhaarman.mockitokotlin2.mock
+import com.nhaarman.mockitokotlin2.verify
 import com.pixelart.cvapp.model.Address
 import com.pixelart.cvapp.model.CareerSummary
 import com.pixelart.cvapp.model.SampleCv
@@ -8,7 +10,7 @@ import com.pixelart.cvapp.ui.detailscreen.DetailPresenterImpl
 import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.mockito.Mock
+import org.mockito.ArgumentMatchers.anyString
 import org.mockito.Mockito
 import org.mockito.junit.MockitoJUnitRunner
 
@@ -18,7 +20,7 @@ class TestDetailPresenter {
     private lateinit var sampleCv: SampleCv
     private lateinit var address: Address
 
-    @Mock private lateinit var view: DetailContract.View
+    private val view: DetailContract.View = mock()
 
     @Before
     fun setup(){
@@ -39,7 +41,7 @@ class TestDetailPresenter {
     fun testSuccess(){
         presenter.getCvDetails(sampleCv)
 
-        Mockito.verify(view).showCvDetails(Mockito.anyString(), Mockito.anyString(), Mockito.anyString(),
-            Mockito.anyString(), Mockito.anyString(), Mockito.anyString(), Mockito.anyString(), Mockito.anyString())
+        verify(view).showCvDetails(anyString(), anyString(), anyString(), anyString(),
+            anyString(), anyString(), anyString(), anyString())
     }
 }
