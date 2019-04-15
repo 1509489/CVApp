@@ -1,5 +1,8 @@
 package com.pixelart.cvapp
 
+import com.nhaarman.mockitokotlin2.mock
+import com.nhaarman.mockitokotlin2.verify
+import com.nhaarman.mockitokotlin2.whenever
 import com.pixelart.cvapp.model.APIResponse
 import com.pixelart.cvapp.network.ApiService
 import com.pixelart.cvapp.ui.homescreen.HomeContract
@@ -13,8 +16,7 @@ import org.junit.Before
 import org.junit.BeforeClass
 import org.junit.Test
 import org.junit.runner.RunWith
-import org.mockito.Mock
-import org.mockito.Mockito
+import org.mockito.ArgumentMatchers.anyList
 import org.mockito.junit.MockitoJUnitRunner
 import java.util.*
 import java.util.concurrent.Executor
@@ -24,8 +26,9 @@ class TestHomePresenter {
     private lateinit var presenter: HomePresenterImpl
     private lateinit var apiResponse: APIResponse
 
-    @Mock private lateinit var view: HomeContract.View
-    @Mock private lateinit var apiService: ApiService
+     private val view: HomeContract.View = mock()
+     private val apiService: ApiService = mock()
+
 
     companion object {
         @BeforeClass
@@ -49,15 +52,15 @@ class TestHomePresenter {
 
     @Test
     fun testApiSuccess(){
-        Mockito.`when`(apiService.getCvs()).thenReturn(Single.just(apiResponse))
+        whenever(apiService.getCvs()).thenReturn(Single.just(apiResponse))
         presenter.getCVs()
-        Mockito.verify(view).showCVs(Mockito.anyList())
+        verify(view).showCVs(anyList())
     }
 
     @Test
     fun testApiFailure(){
-        Mockito.`when`(apiService.getCvs()).thenReturn(Single.error(Throwable()))
+        whenever(apiService.getCvs()).thenReturn(Single.error(Throwable()))
         presenter.getCVs()
-        Mockito.verify(view).showError("Error: ${Throwable().message}")
+        verify(view).showError("Error: ${Throwable().message}")
     }
 }
