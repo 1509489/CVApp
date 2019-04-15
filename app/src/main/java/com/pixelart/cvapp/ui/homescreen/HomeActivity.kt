@@ -50,6 +50,11 @@ class HomeActivity : BaseActivity<HomeContract.Presenter>(), HomeContract.View, 
         presenter.onResume()
     }
 
+    override fun onStop() {
+        super.onStop()
+        presenter.onStop()
+    }
+
     override fun showCVs(cvs: List<SampleCv>) {
         adapter.submitList(cvs)
         idlingResource.decrement()
